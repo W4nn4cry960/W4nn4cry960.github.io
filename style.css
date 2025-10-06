@@ -1,0 +1,23 @@
+/* style.css: File ini mengatur tampilan website */
+
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur jenis font utama */
+    background-color: #f4f4f9; /* Warna latar belakang sangat muda */
+    color: #333; /* Warna teks utama abu-abu gelap */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #007bff; /* Warna biru untuk judul utama */
+    text-align: center; /* Judul di tengah */
+    padding: 20px 0;
+    border-bottom: 2px solid #007bff;
+}
+
+p {
+    max-width: 800px; /* Batasi lebar paragraf agar mudah dibaca */
+    margin: 20px auto; /* Memberi jarak atas/bawah dan di tengah */
+    padding: 0 20px;
+}
