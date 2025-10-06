@@ -1,23 +1,64 @@
-/* style.css: File ini mengatur tampilan website */
+/* style.css: Tampilan Situs Berita */
 
 body {
-    font-family: 'Arial', sans-serif; /* Mengatur jenis font utama */
-    background-color: #f4f4f9; /* Warna latar belakang sangat muda */
-    color: #333; /* Warna teks utama abu-abu gelap */
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Latar belakang abu-abu sangat muda */
+    color: #1c1e21; /* Teks abu-abu gelap */
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-h1 {
-    color: #007bff; /* Warna biru untuk judul utama */
-    text-align: center; /* Judul di tengah */
-    padding: 20px 0;
-    border-bottom: 2px solid #007bff;
+/* HEADER dan NAVIGASI */
+header {
+    background-color: #007bff; /* Warna biru untuk header */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
 }
 
-p {
-    max-width: 800px; /* Batasi lebar paragraf agar mudah dibaca */
-    margin: 20px auto; /* Memberi jarak atas/bawah dan di tengah */
-    padding: 0 20px;
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
 }
+
+nav a {
+    color: white;
+    text-decoration: none; /* Hapus garis bawah pada link */
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Munculkan garis bawah saat kursor diarahkan */
+}
+
+/* KONTEN UTAMA */
+main {
+    max-width: 900px;
+    margin: 20px auto; /* Membuat konten di tengah */
+    padding: 20px;
+    background-color: white; /* Konten utama berwarna putih */
+    border-radius: 8px; /* Sudut sedikit melengkung */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.article-summary {
+    border-left: 5px solid #007bff;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.article-summary h3 {
+    color: #007bff;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333; /* Abu-abu gelap untuk footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
