@@ -11,8 +11,8 @@ body {
 
 /* HEADER dan NAVIGASI */
 header {
-    background-color: #007bff; /* Warna biru untuk header */
-    color: white;
+    background-color: #000000; /* Warna hitam untuk header */
+    color: green;
     padding: 15px 20px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ header h1 {
 }
 
 nav a {
-    color: white;
+    color: green;
     text-decoration: none; /* Hapus garis bawah pada link */
     margin: 0 15px;
     font-weight: bold;
