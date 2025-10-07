@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f2f5; /* Latar belakang abu-abu sangat muda */
-    color: #1c1e21; /* Teks abu-abu gelap */
+    background-color: #f000000; /* Latar belakang hitam sangat muda */
+    color: #00FF00; /* Teks hijau */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -38,7 +38,7 @@ main {
     max-width: 900px;
     margin: 20px auto; /* Membuat konten di tengah */
     padding: 20px;
-    background-color: white; /* Konten utama berwarna putih */
+    background-color: black; /* Konten utama berwarna hitam */
     border-radius: 8px; /* Sudut sedikit melengkung */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus */
 }
